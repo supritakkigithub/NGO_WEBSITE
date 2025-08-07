@@ -37,7 +37,7 @@ export default function Navbar() {
             <a
               href="#home"
               className={`hover:text-orange-400 cursor-pointer ${
-                activeSection === 'home' ? 'text-orange-400' : ''
+                activeSection === '' ? 'text-orange-400' : ''
               }`}
             >
               Home
@@ -61,6 +61,16 @@ export default function Navbar() {
               }`}
             >
               Volunteer
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className={`hover:text-orange-400 cursor-pointer ${
+                activeSection === 'volunteer' ? 'text-orange-400' : ''
+              }`}
+            >
+              Contact us
             </a>
           </li>
         </ul>

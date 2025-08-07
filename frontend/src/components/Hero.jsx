@@ -4,7 +4,7 @@ import heroImage from "../assets/hero.jpg";
 export default function Hero() {
   return (
     <section
-      id="hero"
+      id="home"
       className="relative md:h-[550px] flex items-center justify-between bg-gradient-to-r from-[#001f3f] to-[#003366] overflow-hidden"
     >
       {/* Text Section - Left */}
@@ -17,7 +17,7 @@ export default function Hero() {
           target="_blank"
           rel="noopener noreferrer"
         >
-        <button className="text-xl md:text-2xl bg-orange-500 hover:bg-orange-600 text-white py-3 md:py-4 px-6 md:px-8 rounded-lg shadow-lg transition duration-300">
+        <button className="text-xl md:text-2xl bg-orange-500 hover:bg-orange-600 text-white py-3 md:py-4 px-6 md:px-8 mt-6 rounded-lg shadow-lg transition duration-300">
           Get Involved
         </button>
         </a>
